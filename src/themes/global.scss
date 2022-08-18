@@ -1,0 +1,45 @@
+@import 'utils/_variables.scss';
+@import 'utils/_mixins.scss';
+@import 'utils/_vendors.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $fontFamily;
+}
+
+html {
+  --subline: 5px;
+  --subline-x2: calc(var(--subline) * 2);
+  --subline-x3: calc(var(--subline) * 3);
+  --subline-x4: calc(var(--subline) * 4);
+  --subline-x5: calc(var(--subline) * 5);
+  --subline-x6: calc(var(--subline) * 6);
+  --subline-x7: calc(var(--subline) * 7);
+  --subline-x8: calc(var(--subline) * 8);
+  --subline-x9: calc(var(--subline) * 9);
+  --subline-x10: calc(var(--subline) * 10);
+
+  --baseline: calc(var(--subline) * 5);
+  --baseline-x2: calc(var(--baseline) * 2);
+  --baseline-x3: calc(var(--baseline) * 3);
+  --baseline-x4: calc(var(--baseline) * 4);
+  --baseline-x5: calc(var(--baseline) * 5);
+  --baseline-x6: calc(var(--baseline) * 6);
+  --baseline-x7: calc(var(--baseline) * 7);
+  --baseline-x8: calc(var(--baseline) * 8);
+  --baseline-x9: calc(var(--baseline) * 9);
+  --baseline-x10: calc(var(--baseline) * 10);
+
+  // colors
+  --theme-color-primary-bg: #f6f7f9;
+  --fire-color-sidenav-bg-default: #051e34;
+  --color-A0: #fff;
+}
+
+@import "main";
